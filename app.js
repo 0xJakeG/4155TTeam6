@@ -2,6 +2,9 @@ const express = require('express');
 const morgan = require('morgan');
 const methodOverride = require('method-override');
 const Route = require('./routes/mainRoute');
+require('dotenv').config();
+
+console.log(process.env);
 
 app = express();
 
