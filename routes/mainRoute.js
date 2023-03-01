@@ -22,4 +22,8 @@ router.get('/header', controller.header);
 
 router.get('/footer', controller.footer);
 
+router.get('/select', (req, res)=>{
+    res.send('select')
+});
+
 module.exports = router;
